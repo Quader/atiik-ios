@@ -4,3 +4,9 @@
 [submodule "APExtendedScrollView"]
 	path = APExtendedScrollView
 	url = https://github.com/niktszczegolny/APExtendedScrollView.git
+[submodule "AKTabBarController"]
+	path = AKTabBarController
+	url = https://github.com/alikaragoz/AKTabBarController.git
+[submodule "Locations-with-Map"]
+	path = Locations-with-Map
+	url = https://github.com/pradyumnad/Locations-with-Map.git
