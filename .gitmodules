@@ -1,3 +1,6 @@
 [submodule "QBFlatButton"]
 	path = QBFlatButton
 	url = https://github.com/questbeat/QBFlatButton.git
+[submodule "APExtendedScrollView"]
+	path = APExtendedScrollView
+	url = https://github.com/niktszczegolny/APExtendedScrollView.git
