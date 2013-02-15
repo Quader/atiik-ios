@@ -1,0 +1,3 @@
+[submodule "QBFlatButton"]
+	path = QBFlatButton
+	url = https://github.com/questbeat/QBFlatButton.git
