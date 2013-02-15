@@ -10,3 +10,6 @@
 [submodule "Locations-with-Map"]
 	path = Locations-with-Map
 	url = https://github.com/pradyumnad/Locations-with-Map.git
+[submodule "ios-fontawesome"]
+	path = ios-fontawesome
+	url = https://github.com/alexdrone/ios-fontawesome.git
