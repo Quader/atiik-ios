@@ -19,3 +19,6 @@
 [submodule "SDSegmentedControl"]
 	path = SDSegmentedControl
 	url = https://github.com/rs/SDSegmentedControl
+[submodule "BButton"]
+	path = BButton
+	url = https://github.com/mattlawer/BButton.git
