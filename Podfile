@@ -12,4 +12,5 @@ pod 'FTWButton', '~> 1.0'
 pod 'KGNoise', '~> 1.1.0'
 pod 'OHAttributedLabel', '~> 3.4.1'
 pod 'TDBadgedCell', '~> 2.0'
+pod 'REComposeViewController', '~> 1.1'
 
