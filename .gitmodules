@@ -13,3 +13,9 @@
 [submodule "ios-fontawesome"]
 	path = ios-fontawesome
 	url = https://github.com/alexdrone/ios-fontawesome.git
+[submodule "MLPSpotlight"]
+	path = MLPSpotlight
+	url = https://github.com/EddyBorja/MLPSpotlight.git
+[submodule "SDSegmentedControl"]
+	path = SDSegmentedControl
+	url = https://github.com/rs/SDSegmentedControl

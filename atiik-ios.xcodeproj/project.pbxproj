@@ -10,6 +10,30 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0B33644440144A548C0CD1A6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
 		<key>17CC84D716CEC25700647FAD</key>
 		<dict>
 			<key>children</key>
@@ -17,6 +41,7 @@
 				<string>17CC84E916CEC25800647FAD</string>
 				<string>17CC84E216CEC25800647FAD</string>
 				<string>17CC84E116CEC25800647FAD</string>
+				<string>7BD4ECAC3FAC4366B350AD1E</string>
 			</array>
 			<key>indentWidth</key>
 			<string>4</string>
@@ -60,6 +85,8 @@
 			<string>17CC84E116CEC25800647FAD</string>
 			<key>projectDirPath</key>
 			<string></string>
+			<key>projectReferences</key>
+			<array/>
 			<key>projectRoot</key>
 			<string></string>
 			<key>targets</key>
@@ -106,6 +133,7 @@
 				<string>17CC84E416CEC25800647FAD</string>
 				<string>17CC84E616CEC25800647FAD</string>
 				<string>17CC84E816CEC25800647FAD</string>
+				<string>4C2230EA57EB4CF4829D9F06</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -143,6 +171,7 @@
 				<string>17CC84DD16CEC25700647FAD</string>
 				<string>17CC84DE16CEC25700647FAD</string>
 				<string>BDB62F2A1A9B41798351E9C2</string>
+				<string>0B33644440144A548C0CD1A6</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -167,8 +196,6 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>atiik-ios.app</string>
 			<key>path</key>
 			<string>atiik-ios.app</string>
 			<key>sourceTree</key>
@@ -194,6 +221,7 @@
 				<string>17CC84E316CEC25800647FAD</string>
 				<string>17CC84E516CEC25800647FAD</string>
 				<string>17CC84E716CEC25800647FAD</string>
+				<string>E4599A438438480C97E15B41</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -647,7 +675,7 @@
 				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
 				<string>YES</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
+				<string>Developer ID Application: bloopark studios Ltd. &amp; Co. KG</string>
 				<key>COPY_PHASE_STRIP</key>
 				<string>NO</string>
 				<key>GCC_C_LANGUAGE_STANDARD</key>
@@ -696,9 +724,11 @@
 				<key>GCC_WARN_UNUSED_VARIABLE</key>
 				<string>YES</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
+				<string>5.0</string>
 				<key>ONLY_ACTIVE_ARCH</key>
 				<string>YES</string>
+				<key>PROVISIONING_PROFILE[sdk=iphoneos*]</key>
+				<string></string>
 				<key>RUN_CLANG_STATIC_ANALYZER</key>
 				<string>YES</string>
 				<key>SDKROOT</key>
@@ -770,7 +800,7 @@
 				<key>GCC_WARN_UNUSED_VARIABLE</key>
 				<string>YES</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
+				<string>5.0</string>
 				<key>OTHER_CFLAGS</key>
 				<string>-DNS_BLOCK_ASSERTIONS=1</string>
 				<key>RUN_CLANG_STATIC_ANALYZER</key>
@@ -794,11 +824,15 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>17CC850F16CEC25A00647FAD</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7BD4ECAC3FAC4366B350AD1E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -807,6 +841,8 @@
 				<string>atiik-ios/atiik-ios-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
 				<string>atiik-ios/atiik-ios-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -819,6 +855,8 @@
 		</dict>
 		<key>17CC851016CEC25A00647FAD</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7BD4ECAC3FAC4366B350AD1E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
@@ -829,6 +867,8 @@
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
 				<string>atiik-ios/atiik-ios-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -838,6 +878,30 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>4C2230EA57EB4CF4829D9F06</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E4599A438438480C97E15B41</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>7BD4ECAC3FAC4366B350AD1E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>BDB62F2A1A9B41798351E9C2</key>
 		<dict>
@@ -862,6 +926,21 @@
 FILE_EXTENSIONS="h|m|mm|c|cpp"
 find -E "${SRCROOT}" -ipath "${SRCROOT}/pods" -prune -o \( -regex ".*\.($FILE_EXTENSIONS)$" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | perl -p -e "s/($KEYWORDS)/ warning: \$1/"
 </string>
+		</dict>
+		<key>E4599A438438480C97E15B41</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

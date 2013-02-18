@@ -1,4 +1,4 @@
-platform :ios
+platform :ios, '5.0'
 pod 'RestKit', '~> 0.20.0rc1'
 pod 'Reachability',  '~> 3.0.0'
 pod 'EKNotifView', '~> 0.0.1'
@@ -9,4 +9,7 @@ pod 'ZGParallelView', '~> 0.1.3'
 pod 'KLNoteViewController', '~> 0.0.1'
 pod 'HMSegmentedControl', '~> 1.1.0'
 pod 'FTWButton', '~> 1.0'
+pod 'KGNoise', '~> 1.1.0'
+pod 'OHAttributedLabel', '~> 3.4.1'
+pod 'TDBadgedCell', '~> 2.0'
 
