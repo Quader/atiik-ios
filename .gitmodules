@@ -22,3 +22,6 @@
 [submodule "BButton"]
 	path = BButton
 	url = https://github.com/mattlawer/BButton.git
+[submodule "BWStatusBarOverlay"]
+	path = BWStatusBarOverlay
+	url = https://github.com/brunow/BWStatusBarOverlay.git
